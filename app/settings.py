@@ -1,7 +1,7 @@
-DEBUG = False
+DEBUG = True
 
 # Show user matches
-RELEASE_MATCHES = True
+RELEASE_MATCHES = False
 
 # Must match class/dept DND entry
-CLASS_YEAR = "'11"
+CLASS_YEAR = "'12"

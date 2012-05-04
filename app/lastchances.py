@@ -23,7 +23,7 @@ from google.appengine.api import memcache as mc
 from google.appengine.api import taskqueue
 from google.appengine.runtime import DeadlineExceededError
 
-from settings import DEBUG, CLASS_YEAR, RELEASE_MATCHES
+from settings import DEBUG, CLASS_YEAR, RELEASE_MATCHES, CAN_CHANGE
 
 CAS_URL = 'https://login.dartmouth.edu/cas/'
 if DEBUG:
